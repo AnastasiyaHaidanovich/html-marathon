@@ -1,0 +1,446 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.visually-hidden{
+    display: none;
+}
+section{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+a, p, h3{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;    
+}
+li{
+    list-style: none;
+}
+.main-navigation li{
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.main-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.main-nav-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+    
+}
+nav{
+    margin-top: 26px;
+    border-top:1px solid #AE7C78;
+    border-bottom:1px solid #AE7C78;
+    margin-bottom: 80px;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+}
+.promo-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+    color: #AE7C78;
+    margin-bottom: 24px;
+}
+.itallic-font {
+    font-style: italic;
+}
+.promo{
+    margin-bottom: 50px;
+    padding-bottom: 180px;
+    background: url(img/promo-photo.jpg) bottom right no-repeat;
+}
+.promo-content{
+    width: 47%;
+}
+.promo-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+    margin-bottom: 95px;
+}
+.to-catalog{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    background: #D89999;
+    border-radius: 40px;
+    padding: 30px 70px;
+}
+.white-text{
+    color: #FFFFFF;
+}
+.advantages {
+    margin-bottom: 80px;
+}
+.advantage-item h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+    margin-bottom: 8px;
+}
+.advantage-item p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+.advantages-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.advantage-item{
+    background:url(img/bouquet\ 1.svg)left center no-repeat;
+    padding-left:70px;
+}
+.advantage-item:first-child{
+    background:url(img/car.svg)left center no-repeat;
+    padding-left:100px;
+}
+.advantage-item:last-child{
+    background:url(img/Camera.svg)left center no-repeat;
+    padding-left:80px;
+}
+.popular-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.bouquet-vidget li{
+    margin: 0 auto;
+    width: 800px;
+    height: 440px;
+    background:url(img/imgbin_flower-bouquet-cut-flowers-floral-design-garden-roses-png\ 1.jpg) right center no-repeat;
+    margin-bottom: 25px;
+}
+.bouquet-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+.bouquet-description{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+    margin-bottom: 24px;
+    width: 47%;
+}
+.bouquet-price{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+    margin-bottom: 65px;
+}
+.to-order{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    background: #D89999;
+    border-radius: 40px;
+    border:none;
+    padding: 30px 105px;
+}
+.vidget-pagination{
+    margin-bottom: 85px;
+    margin-left: 45%;
+}
+.vidget-pagination button{
+    border:none;
+    background-color:#ffffff;
+    cursor:pointer;
+    margin-right: 20px;
+}
+.catalog-chapters{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+.catalog-chapter{
+    width: 32%;
+    height: 442px;
+    background:url(img/piony.jpg) center center no-repeat;
+    border-radius: 10px;
+}
+.catalog-chapter:first-child{
+    background:url(img/wedding.jpg) center center no-repeat;
+}
+.catalog-chapter:last-child{
+    background:url(img/choose.jpg) center center no-repeat;
+}
+.chapter-title{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin-top: 170px;
+}
+.chapter-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+.sale-card{    
+    padding-top: 40px;
+    height:391px;
+    background:url(img/florist-makes-beautiful-bouquet-studio\ 1.jpg) right center no-repeat ;
+    background-color: #AE7C78;
+    margin-bottom: 80px;
+}
+.sale-title{
+    margin-left: 90px;
+    margin-bottom: 24px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+    width:30%;
+}
+.sale-description{
+    width:35%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 90px;
+}
+.four-steps{
+    margin-bottom: 150px;
+}
+.four-steps h2{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #AE7C78;
+    margin-bottom: 36px;
+}
+.steps{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.step h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 8px;
+    background:url(img/payment_icon.svg) top center no-repeat;
+}
+.step:last-child h3{
+    background:url(img/car.svg) top center no-repeat;
+}
+.step:first-child h3{
+    background:url(img/computer_icon.svg) top center no-repeat;
+}
+.step:nth-child(2) h3{
+    background:url(img/person_icon.svg) top center no-repeat;
+}
+.step p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+}
+.news{
+    background:url(img/news-picture.jpg) right 120px top no-repeat;
+}
+.news h2{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+    padding-bottom: 40px;
+    width:40%;
+    padding-top: 70px;
+}
+.news p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #AE7C78;
+    padding-bottom: 40px;
+    width:35%;
+}
+.social-links{
+    display: flex;  
+    padding-bottom: 70px;
+    margin-bottom: 80px;
+}
+.social-link{
+    margin-right: 20px;
+}
+.reviews{
+    margin:0 120px;
+    padding: 0;
+    border: 1px solid #AE7C78;
+    padding-bottom: 65px;
+    margin-bottom: 80px;
+}
+.reviews h2{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #AE7C78;
+    margin: 40px 0;
+}
+.reviews-list{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+.review{
+    margin: 0 45px;
+}
+.review-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #AE7C78;
+    margin-bottom: 16px;
+}
+.review-author{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+    margin-left: 110px;
+}
+.contacts{
+    background:url(img/map.jpg) center center no-repeat;
+    height:645px;
+    padding-top: 52px;
+}
+.contacts-container{
+    background: #F7FAFC;
+    box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+    border-radius: 12px;
+    width: 386px;
+    height: 520px;
+}
+.contacts-title{
+    font-family: 'Playfair Display', serif;
+    padding: 0;
+    margin: 0;
+    padding-top:40px;
+    padding-left: 35px;
+    margin-bottom: 42px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #AE7C78;
+}
+.contacts-list dt{
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 35px;
+    padding-bottom: 21px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+.contacts-list dd{
+    font-style: normal;
+    padding-left: 35px;
+    padding-bottom: 31px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+.contact-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #AE7C78;
+}
+.main-footer{
+    background-color: #AE7C78;
+    margin: 0;
+    padding: 0 120px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 680px;
+}
+.footer-menu-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.footer-social-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
